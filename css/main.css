@@ -33,6 +33,41 @@ Header media queries
 
   }
 
+  td.headline {
+
+    padding: 5px 0px 0px 30px !important;
+
+  }
+
+  /***********************
+
+  Switching the headline
+  and banner for smaller
+  screen sizes
+
+  ************************/
+
+
+  td.headline h1 {
+
+    font-size: 28px !important;
+
+  }
+
+  td.banner img {
+
+    display: none;
+
+  }
+
+  td.banner {
+
+    width: 480px;
+    height: 150px;
+    background: url(../images/banner_medium.jpg) no-repeat 0px 0px;
+
+  }
+
 }
 
 /* Small screen */
@@ -54,6 +89,27 @@ Header media queries
 
     background: #fff url(../images/logo_small.gif) no-repeat center 10px;
     height: 32px;
+
+  }
+
+  /******************************
+
+  Headline and banner for smaller
+  and screen sizes
+
+  *******************************/
+
+  td.headline h1 {
+
+    font-size: 24px !important;
+    text-align: center;
+
+  }
+
+  td.banner {
+
+    height: 115px;
+    background: url(../images/banner_small.jpg) no-repeat right 0px;
 
   }
 
