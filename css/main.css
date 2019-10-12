@@ -240,6 +240,31 @@ Header media queries
 
   }
 
+  td.callout table.callout_three {
+
+    clear: left;
+
+  }
+
+  /***************************************
+
+  Adjusting video for medium devices
+
+  ****************************************/
+
+  video {
+
+    width: 416px !important;
+    height: 312px;
+
+  }
+
+  video img {
+
+    width: 416 !important;
+    height: 312px !important;
+
+  }
 
 }
 
@@ -417,7 +442,37 @@ Header media queries
 
     display: inline;
 
+  }
 
+  /**********************
+
+  footer
+
+  ***********************/
+
+  td.footer {
+
+    padding: 20px 30px !important;
+
+  }
+
+  /***********************************
+
+  Video styles for small devices
+
+  **********************************/
+
+  video {
+
+    width: 300px !important;
+    height: 255px !important;
+
+  }
+
+  video img {
+
+    width: 300px !important;
+    height: 255px !important;
 
   }
 
