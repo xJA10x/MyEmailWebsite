@@ -255,13 +255,13 @@ Header media queries
   video {
 
     width: 416px !important;
-    height: 312px;
+    height: 312px !important;
 
   }
 
   video img {
 
-    width: 416 !important;
+    width: 416px !important;
     height: 312px !important;
 
   }
